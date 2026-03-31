@@ -24,7 +24,8 @@ gem 'omniauth-facebook'
 gem 'rails', '~> 5.2.4'
 # Use mysql as the database for Active Record
 group :development do
-  gem 'mysql2', '>= 0.4.4', '< 0.6.0'
+  # gem 'mysql2', '>= 0.4.4', '< 0.6.0'
+  gem 'pg'
 end
 
 group :production do
